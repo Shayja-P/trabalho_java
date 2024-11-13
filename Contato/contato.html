@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css" />
+    </head>
+    <body>
+    
+        <div class="navbar">
+            <div class="logo">
+                <h1 id="titulo1">Book<span id="titulo2">Nook</span></h1>
+            </div>
+            <div class="navbar-vertical" id="navt">
+                <nav class="nav">
+                    <ul class="ullist">
+                        <li><a href="../Home/index.html" class="nav_item">Home</a></li>
+                        <li><a href="../Livros/Livros.html" class="nav_item">Livros</a></li>
+                        <li><a href="../Sobre_Nos/sobrenos.html" class="nav_item">Sobre Nós</a></li>
+                        <li><a href="../Contato/contato.html" class="nav_item">Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="btn" onclick="window.location.href='../Contato/contato.html'">Adicionar Livro</button>
+            </div>
+        </div>
+        <div class="menu-img" onclick="toggle()" id="mi"><img src="../imagens/assets/menu.png"></div>
+
+        <section class="contato" id="contato">
+            <h1 class="heading"> <span>Contate-</span>Nos</h1>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-clock"></i>
+                    <h3>Intagram e Facebook</h3>
+                    <p>@Nook_book</p>
+                </div>
+    
+                <div class="icons">
+                    <i class="fas fa-envelope"></i>
+                    <h3>e-mail</h3>
+                    <p>nookbook@gmail.com</p>
+                    <p>nkbk_support@gmail.com</p>
+                </div>
+    
+                <div class="icons">
+                    <i class="fas fa-phone"></i>
+                    <h3>phone number</h3>
+                    <p>+55 18-99436-7899</p>
+                    <p>+55 18-99436-7899</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="form">
+                <div class="contato-img">
+                    <img src="../imagens/assets/contato_form.png" alt="Pessoas conversando no celular">
+                </div>
+
+        <div class="contato-form">
+            <span class="circulo um"></span>
+            <span class="circulo dois"></span>
+
+            <form action="index.html" autocomplete="off">
+            <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Nome</label>
+                <span>Nome</span>
+            </div>
+            <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">E-mail</label>
+                <span>E-mail</span>
+            </div>
+            <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Telefone</label>
+                <span>Telefone</span>
+            </div>
+            <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Mensagem</label>
+                <span>Mensagem</span>
+            </div>
+            <input type="submit" value="Enviar" class="btn" />
+            </form>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerdiv">
+            <hr>
+            <h5>copyright © 2024 BookNook</h5>
+        </div>
+    </footer>
+
+    <script src="contato.js"></script>
+    </body>
+</html>

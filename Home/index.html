@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="pagina-principal">
+        <div class="navbar">
+            <div class="logo">
+                <h1 id="titulo1">Book<span id="titulo2">Nook</span></h1>
+            </div>
+            <div class="navbar-vertical" id="navt">
+                <nav class="nav">
+                    <ul class="ullist">
+                        <li><a href="../Home/index.html" class="nav_item">Home</a></li>
+                        <li><a href="../Livros/Livros.html" class="nav_item">Livros</a></li>
+                        <li><a href="../Sobre_Nos/sobrenos.html" class="nav_item">Sobre Nós</a></li>
+                        <li><a href="../Contato/contato.html" class="nav_item">Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="btn" onclick="window.location.href='../Contato/contato.html'" >Adicionar Livro</button>
+            </div>
+        </div>
+        <div class="menu-img" onclick="toggle()" id="mi">
+            <img src="../imagens/assets/menu.png">
+        </div>
+</div>
+
+<div class="feature-section">
+    <h2 class="section-title">Destaques</h2>
+    <div class="slider-container">
+        <button class="slider-prev" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="book-slider" id="book-slider">
+            <div class="book-slide">
+                <img src="../imagens/livros/search/1.png" alt="Livro 1">
+                <h3>Eu e a Lua</h3>
+            </div>
+            <div class="book-slide">
+                <img src="../imagens/livros/search/10.png" alt="Livro 2">
+                <h3>No Espaço</h3>
+            </div>
+            <div class="book-slide">
+                <img src="../imagens/livros/search/4.png" alt="Livro 3">
+                <h3>Crocodilo: A Journada</h3>
+            </div>
+            <div class="book-slide">
+                <img src="../imagens/livros/search/6.png" alt="Livro 3">
+                <h3>Robô Zangado</h3>
+            </div>
+            <div class="book-slide">
+                <img src="../imagens/livros/search/2.png" alt="Livro 3">
+                <h3>Super herói dos Livros</h3>
+            </div>
+        </div>
+        <button class="slider-next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+</div>
+
+<div class="feature-section">
+    <h2 class="section-title">Chegando em Breve</h2>
+    <div class="slider-container">
+        <button class="slider-prev" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="book-slider" id="book-slider">
+            <div class="book-slide">
+                <img src="../imagens/livros/Em_breve/1.png" alt="Livro 1">
+                <h3>Eu e a Lua</h3>
+            </div>
+            <div class="book-slide">
+                <img src="../imagens/livros/Em_breve/2.png" alt="Livro 2">
+                <h3>No Espaço</h3>
+            </div>
+            <div class="book-slide">
+                <img src="../imagens/livros/Em_breve/3.png" alt="Livro 3">
+                <h3>Crocodilo: A Journada</h3>
+            </div>
+            <div class="book-slide">
+                <img src="../imagens/livros/Em_breve/4.png" alt="Livro 3">
+                <h3>Robô Zangado</h3>
+            </div>
+            <div class="book-slide">
+                <img src="../imagens/livros/Em_breve/5.png" alt="Livro 3">
+                <h3>Super herói dos Livros</h3>
+            </div>
+        </div>
+        <button class="slider-next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+</div>
+
+<div class="link_livro">
+    <img id="menino_livro" src="../imagens/assets/home_linklivros.png" alt="Imagem de Menino lendo Livro">
+    <button class="btn" id="biblioteca_btn" onclick="window.location.href='../Livros/Livros.html'">Ver Biblioteca Completa!</button>
+</div>
+
+    <footer>
+        <div class="footerdiv">
+            <hr>
+            <h5>copyright © 2024 BookNook</h5>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

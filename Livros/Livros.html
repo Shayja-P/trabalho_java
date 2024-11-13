@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros</title>
+    <link rel="stylesheet" href="Livros.css">
+</head>
+
+<body>
+    <div class="pagina-principal">
+        <div class="navbar">
+            <div class="logo">
+                <h1 id="titulo1">Book<span id="titulo2">Nook</span></h1>
+            </div>
+            <div class="navbar-vertical" id="navt">
+                <nav class="nav">
+                    <ul class="ullist">
+                        <li><a href="../Home/index.html" class="nav_item">Home</a></li>
+                        <li><a href="../Livros/Livros.html" class="nav_item">Livros</a></li>
+                        <li><a href="../Sobre_Nos/sobrenos.html" class="nav_item">Sobre Nós</a></li>
+                        <li><a href="../Contato/contato.html" class="nav_item">Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="btn" onclick="window.location.href='../Contato/contato.html'">Adicionar Livro</button>
+            </div>
+        </div>
+        <div class="menu-img" onclick="toggle()" id="mi">
+            <img src="../imagens/assets/menu.png">
+        </div>
+
+        <div class="mainrow">
+            <div class="conteudo-principal">
+                <div class="book-wrapper">
+                    <div class="book">
+                        <div class="back"></div>
+                        <div class="page6"></div>
+                        <div class="page5"></div>
+                        <div class="page4"></div>
+                        <div class="page3"></div>
+                        <div class="page2"></div>
+                        <div class="page1"></div>
+                        <div class="front"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+    <div class="latest-added">
+        <div class="heading">
+            <h1>Todos os livros</h1>
+            <input type="text" class="searchInput" placeholder="Procurar Nome do Livro" id="myInput">
+
+        </div>
+
+
+        <div class="latest-row" id="booknamesearch">
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/1.png"></div>
+                <div class="info">
+                    <h3>Eu e a Lua</h3>
+                    <p>Descubra um mundo além da Terra com este livro com 10 histórias de ninar!</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/1.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/2.png"></div>
+                <div class="info">
+                    <h3>Super-Herói dos Livros</h3>
+                    <p>Uma garota corajosa ganha superpoderes sempre que lê, enfrentando vilões e salvando histórias encantadas.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/2.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/3.png"></div>
+                <div class="info">
+                    <h3>Jean e Seu Sonho</h3>
+                    <p>Jean adormece e encontra um mundo de paz, onde flutua entre as nuvens e conversa com as estrelas.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/3.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/4.png"></div>
+                <div class="info">
+                    <h3>Crocodilo: A Jornada</h3>
+                    <p>Dilo recebe uma carta misteriosa e parte em uma jornada, encontrando amigos e desafios pelo caminho.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/4.png')">Download</button>
+                </div>
+            </div>
+
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/5.png"></div>
+                <div class="info">
+                    <h3>Cresça Minha Árvore</h3>
+                    <p>Lorenzo planta pequenas arvores e as cuida com carinho a pedido de sua avó. Ele descobre que o mundo botânico exige persistência, cuidado e paciência.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/5.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/6.png"></div>
+                <div class="info">
+                    <h3>Robô Zangado</h3>
+                    <p>Um robô que semore está de mau humor descobre que a amizade e a diversão podem transformar seu coração.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/6.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/7.png"></div>
+                <div class="info">
+                    <h3>Meu Pequeno Dinossauro</h3>
+                    <p>Um pequeno dinossauro vive aventuras suaves enquanto explora a floresta, ajudando seus amigos antes de se aconchegar para dormir.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/7.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/8.png"></div>
+                <div class="info">
+                    <h3>Grande Festa Monstro</h3>
+                    <p>O grupo monstrengo se reúne para um festa incrível, cheia de risadas, música e guloseimas, mostrando que a amizade é a maior celebração.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/8.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/9.png"></div>
+                <div class="info">
+                    <h3>Missões de Halloween Fantasma</h3>
+                    <p>Fantasmas travessos recebm missões divertidas no Halloween, ajudando crianças a se divertirem e a enfrentarem seus medos.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/9.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/10.png"></div>
+                <div class="info">
+                    <h3>No Espaço</h3>
+                    <p>Em uma noite mágica, as estrelas contam histórias de planetas e criaturas alienígenas, levando crianças a sonhas com aventuras no espaço.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/10.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/11.png"></div>
+                <div class="info">
+                    <h3>Pequena Abelha</h3>
+                    <p>Lili e sua mãe partem em busca de flores coloridas, aprendendo sobre o amor e a importância de cuidar da colmeia.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/11.png')">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="../imagens/livros/search/12.png"></div>
+                <div class="info">
+                    <h3>Bem-Vindo ao Circus</h3>
+                    <p>Prepare-se para um espetáculo incrível, onde palhaços divertidos, acrobatas desafiadores e mágicos fantásticos mostram que a magia do circo é feita de sonhos e risadas.</p>
+                    <button class="btnn" onclick="downloadImage('../imagens/livros/search/12.png')">Download</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footerdiv">
+            <hr>
+            <h5>copyright © 2024 BookNook</h5>
+        </div>
+
+    </footer>
+
+    <script src="Livros.js"></script>
+
+</body>
+
+</html>
